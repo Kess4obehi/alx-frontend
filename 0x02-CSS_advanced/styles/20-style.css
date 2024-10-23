@@ -194,3 +194,9 @@ ul.row {
 .footer ul {
   text-align: right;
 }
+
+.row::after {
+  content: ""; /* No content */
+  display: table; /* Displayed as a table */
+  clear: both; /* Prevent floating elements on either side */
+}
