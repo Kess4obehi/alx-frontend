@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Target the before pseudo-elements of nav-link that is inside nav */
-nav .nav-link::before {
+.nav .nav-link::before {
   content: ''; /* Set the content to empty */
   position: absolute; /* Absolutely position the element */
   top: 0; /* Set vertical position to 0 */
